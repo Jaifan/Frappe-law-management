@@ -1,0 +1,162 @@
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _a7c58d05f7394839 -p********** _a7c58d05f7394839 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./law.com/private/backups/20230321_180005-law_com-database.sql.gz
+
+Backup Summary for law.com at 2023-03-21 18:00:14.538512
+Config  : ./law.com/private/backups/20230321_180005-law_com-site_config_backup.json 180.0B
+Database: ./law.com/private/backups/20230321_180005-law_com-database.sql.gz         1.2MiB
+Backup for Site law.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _a7c58d05f7394839 -p********** _a7c58d05f7394839 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./law.com/private/backups/20230322_000008-law_com-database.sql.gz
+
+Backup Summary for law.com at 2023-03-22 00:00:12.549216
+Config  : ./law.com/private/backups/20230322_000008-law_com-site_config_backup.json 180.0B
+Database: ./law.com/private/backups/20230322_000008-law_com-database.sql.gz         1.2MiB
+Backup for Site law.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _a7c58d05f7394839 -p********** _a7c58d05f7394839 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./law.com/private/backups/20230322_060007-law_com-database.sql.gz
+
+Backup Summary for law.com at 2023-03-22 06:00:10.304045
+Config  : ./law.com/private/backups/20230322_060007-law_com-site_config_backup.json 180.0B
+Database: ./law.com/private/backups/20230322_060007-law_com-database.sql.gz         1.2MiB
+Backup for Site law.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _a7c58d05f7394839 -p********** _a7c58d05f7394839 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./law.com/private/backups/20230322_120006-law_com-database.sql.gz
+
+Backup Summary for law.com at 2023-03-22 12:00:11.230893
+Config  : ./law.com/private/backups/20230322_120006-law_com-site_config_backup.json 180.0B
+Database: ./law.com/private/backups/20230322_120006-law_com-database.sql.gz         1.2MiB
+Backup for Site law.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _a7c58d05f7394839 -p********** _a7c58d05f7394839 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./law.com/private/backups/20230322_180006-law_com-database.sql.gz
+
+Backup Summary for law.com at 2023-03-22 18:00:11.894967
+Config  : ./law.com/private/backups/20230322_180006-law_com-site_config_backup.json 180.0B
+Database: ./law.com/private/backups/20230322_180006-law_com-database.sql.gz         1.3MiB
+Backup for Site law.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _a7c58d05f7394839 -p********** _a7c58d05f7394839 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./law.com/private/backups/20230323_000007-law_com-database.sql.gz
+
+Backup Summary for law.com at 2023-03-23 00:00:12.217693
+Config  : ./law.com/private/backups/20230323_000007-law_com-site_config_backup.json 180.0B
+Database: ./law.com/private/backups/20230323_000007-law_com-database.sql.gz         1.3MiB
+Backup for Site law.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _a7c58d05f7394839 -p********** _a7c58d05f7394839 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./law.com/private/backups/20230323_060006-law_com-database.sql.gz
+
+Backup Summary for law.com at 2023-03-23 06:00:09.925156
+Config  : ./law.com/private/backups/20230323_060006-law_com-site_config_backup.json 180.0B
+Database: ./law.com/private/backups/20230323_060006-law_com-database.sql.gz         1.3MiB
+Backup for Site law.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _a7c58d05f7394839 -p********** _a7c58d05f7394839 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./law.com/private/backups/20230323_120008-law_com-database.sql.gz
+
+Backup Summary for law.com at 2023-03-23 12:00:12.096830
+Config  : ./law.com/private/backups/20230323_120008-law_com-site_config_backup.json 180.0B
+Database: ./law.com/private/backups/20230323_120008-law_com-database.sql.gz         1.3MiB
+Backup for Site law.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _a7c58d05f7394839 -p********** _a7c58d05f7394839 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./law.com/private/backups/20230323_180007-law_com-database.sql.gz
+
+Backup Summary for law.com at 2023-03-23 18:00:12.109720
+Config  : ./law.com/private/backups/20230323_180007-law_com-site_config_backup.json 205.0B
+Database: ./law.com/private/backups/20230323_180007-law_com-database.sql.gz         1.3MiB
+Backup for Site law.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _a7c58d05f7394839 -p********** _a7c58d05f7394839 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./law.com/private/backups/20230324_000006-law_com-database.sql.gz
+
+Backup Summary for law.com at 2023-03-24 00:00:10.288448
+Config  : ./law.com/private/backups/20230324_000006-law_com-site_config_backup.json 205.0B
+Database: ./law.com/private/backups/20230324_000006-law_com-database.sql.gz         1.3MiB
+Backup for Site law.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _a7c58d05f7394839 -p********** _a7c58d05f7394839 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./law.com/private/backups/20230324_060007-law_com-database.sql.gz
+
+Backup Summary for law.com at 2023-03-24 06:00:10.448918
+Config  : ./law.com/private/backups/20230324_060007-law_com-site_config_backup.json 205.0B
+Database: ./law.com/private/backups/20230324_060007-law_com-database.sql.gz         1.3MiB
+Backup for Site law.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _a7c58d05f7394839 -p********** _a7c58d05f7394839 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./law.com/private/backups/20230324_120010-law_com-database.sql.gz
+
+Backup Summary for law.com at 2023-03-24 12:00:18.388055
+Config  : ./law.com/private/backups/20230324_120010-law_com-site_config_backup.json 205.0B
+Database: ./law.com/private/backups/20230324_120010-law_com-database.sql.gz         1.3MiB
+Backup for Site law.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _a7c58d05f7394839 -p********** _a7c58d05f7394839 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./law.com/private/backups/20230324_180008-law_com-database.sql.gz
+
+Backup Summary for law.com at 2023-03-24 18:00:12.371735
+Config  : ./law.com/private/backups/20230324_180008-law_com-site_config_backup.json 205.0B
+Database: ./law.com/private/backups/20230324_180008-law_com-database.sql.gz         1.3MiB
+Backup for Site law.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _a7c58d05f7394839 -p********** _a7c58d05f7394839 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./law.com/private/backups/20230325_000006-law_com-database.sql.gz
+
+Backup Summary for law.com at 2023-03-25 00:00:10.094638
+Config  : ./law.com/private/backups/20230325_000006-law_com-site_config_backup.json 205.0B
+Database: ./law.com/private/backups/20230325_000006-law_com-database.sql.gz         1.3MiB
+Backup for Site law.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _a7c58d05f7394839 -p********** _a7c58d05f7394839 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./law.com/private/backups/20230325_060006-law_com-database.sql.gz
+
+Backup Summary for law.com at 2023-03-25 06:00:09.822823
+Config  : ./law.com/private/backups/20230325_060006-law_com-site_config_backup.json 205.0B
+Database: ./law.com/private/backups/20230325_060006-law_com-database.sql.gz         1.3MiB
+Backup for Site law.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _a7c58d05f7394839 -p********** _a7c58d05f7394839 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./law.com/private/backups/20230325_120006-law_com-database.sql.gz
+
+Backup Summary for law.com at 2023-03-25 12:00:10.353583
+Config  : ./law.com/private/backups/20230325_120006-law_com-site_config_backup.json 205.0B
+Database: ./law.com/private/backups/20230325_120006-law_com-database.sql.gz         1.3MiB
+Backup for Site law.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _a7c58d05f7394839 -p********** _a7c58d05f7394839 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./law.com/private/backups/20230325_180007-law_com-database.sql.gz
+
+Backup Summary for law.com at 2023-03-25 18:00:10.371418
+Config  : ./law.com/private/backups/20230325_180007-law_com-site_config_backup.json 205.0B
+Database: ./law.com/private/backups/20230325_180007-law_com-database.sql.gz         1.3MiB
+Backup for Site law.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _a7c58d05f7394839 -p********** _a7c58d05f7394839 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./law.com/private/backups/20230326_000006-law_com-database.sql.gz
+
+Backup Summary for law.com at 2023-03-26 00:00:09.982421
+Config  : ./law.com/private/backups/20230326_000006-law_com-site_config_backup.json 205.0B
+Database: ./law.com/private/backups/20230326_000006-law_com-database.sql.gz         1.3MiB
+Backup for Site law.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _a7c58d05f7394839 -p********** _a7c58d05f7394839 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./law.com/private/backups/20230326_060007-law_com-database.sql.gz
+
+Backup Summary for law.com at 2023-03-26 06:00:10.309184
+Config  : ./law.com/private/backups/20230326_060007-law_com-site_config_backup.json 205.0B
+Database: ./law.com/private/backups/20230326_060007-law_com-database.sql.gz         1.3MiB
+Backup for Site law.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _a7c58d05f7394839 -p********** _a7c58d05f7394839 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./law.com/private/backups/20230326_120006-law_com-database.sql.gz
+
+Backup Summary for law.com at 2023-03-26 12:00:09.804403
+Config  : ./law.com/private/backups/20230326_120006-law_com-site_config_backup.json 205.0B
+Database: ./law.com/private/backups/20230326_120006-law_com-database.sql.gz         1.3MiB
+Backup for Site law.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _a7c58d05f7394839 -p********** _a7c58d05f7394839 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./law.com/private/backups/20230326_180007-law_com-database.sql.gz
+
+Backup Summary for law.com at 2023-03-26 18:00:10.572366
+Config  : ./law.com/private/backups/20230326_180007-law_com-site_config_backup.json 205.0B
+Database: ./law.com/private/backups/20230326_180007-law_com-database.sql.gz         1.3MiB
+Backup for Site law.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _a7c58d05f7394839 -p********** _a7c58d05f7394839 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./law.com/private/backups/20230327_000007-law_com-database.sql.gz
+
+Backup Summary for law.com at 2023-03-27 00:00:10.209708
+Config  : ./law.com/private/backups/20230327_000007-law_com-site_config_backup.json 205.0B
+Database: ./law.com/private/backups/20230327_000007-law_com-database.sql.gz         1.3MiB
+Backup for Site law.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _a7c58d05f7394839 -p********** _a7c58d05f7394839 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./law.com/private/backups/20230327_060006-law_com-database.sql.gz
+
+Backup Summary for law.com at 2023-03-27 06:00:09.614351
+Config  : ./law.com/private/backups/20230327_060006-law_com-site_config_backup.json 205.0B
+Database: ./law.com/private/backups/20230327_060006-law_com-database.sql.gz         1.3MiB
+Backup for Site law.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _a7c58d05f7394839 -p********** _a7c58d05f7394839 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./law.com/private/backups/20230327_120006-law_com-database.sql.gz
+
+Backup Summary for law.com at 2023-03-27 12:00:11.735247
+Config  : ./law.com/private/backups/20230327_120006-law_com-site_config_backup.json 205.0B
+Database: ./law.com/private/backups/20230327_120006-law_com-database.sql.gz         1.3MiB
+Backup for Site law.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _a7c58d05f7394839 -p********** _a7c58d05f7394839 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./law.com/private/backups/20230327_180005-law_com-database.sql.gz
+
+Backup Summary for law.com at 2023-03-27 18:00:12.054519
+Config  : ./law.com/private/backups/20230327_180005-law_com-site_config_backup.json 205.0B
+Database: ./law.com/private/backups/20230327_180005-law_com-database.sql.gz         1.3MiB
+Backup for Site law.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _a7c58d05f7394839 -p********** _a7c58d05f7394839 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./law.com/private/backups/20230328_000008-law_com-database.sql.gz
+
+Backup Summary for law.com at 2023-03-28 00:00:13.650880
+Config  : ./law.com/private/backups/20230328_000008-law_com-site_config_backup.json 205.0B
+Database: ./law.com/private/backups/20230328_000008-law_com-database.sql.gz         1.3MiB
+Backup for Site law.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _a7c58d05f7394839 -p********** _a7c58d05f7394839 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./law.com/private/backups/20230328_060006-law_com-database.sql.gz
+
+Backup Summary for law.com at 2023-03-28 06:00:10.863483
+Config  : ./law.com/private/backups/20230328_060006-law_com-site_config_backup.json 205.0B
+Database: ./law.com/private/backups/20230328_060006-law_com-database.sql.gz         1.3MiB
+Backup for Site law.com has been successfully completed

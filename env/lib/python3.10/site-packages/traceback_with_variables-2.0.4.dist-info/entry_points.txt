@@ -1,0 +1,3 @@
+[console_scripts]
+traceback-with-variables = traceback_with_variables.main:main
+

@@ -1,0 +1,83 @@
+2023-03-23 10:23:12,685 ERROR frappe New Exception collected with id: 2023-03-23 10:23:12.405252-127.0.0.1-8d1
+Site: law.com
+Form Dict: {'items': '["/assets/frappe/dist/js/build_events.bundle.BEO64C2K.js"]'}
+2023-03-23 10:23:12,685 ERROR frappe New Exception collected with id: 2023-03-23 10:23:12.405252-127.0.0.1-8d1
+Site: law.com
+Form Dict: {'items': '["/assets/frappe/dist/js/build_events.bundle.BEO64C2K.js"]'}
+2023-03-23 10:23:12,701 ERROR frappe New Exception collected with id: 2023-03-23 10:23:12.405041-127.0.0.1-c8f
+Site: law.com
+Form Dict: {'start': '2023-03-23', 'end': '2023-03-23'}
+2023-03-23 10:23:12,701 ERROR frappe New Exception collected with id: 2023-03-23 10:23:12.405041-127.0.0.1-c8f
+Site: law.com
+Form Dict: {'start': '2023-03-23', 'end': '2023-03-23'}
+2023-03-23 10:23:12,710 ERROR frappe New Exception collected with id: 2023-03-23 10:23:12.405981-127.0.0.1-126
+Site: law.com
+Form Dict: {'limit': '20'}
+2023-03-23 10:23:12,710 ERROR frappe New Exception collected with id: 2023-03-23 10:23:12.405981-127.0.0.1-126
+Site: law.com
+Form Dict: {'limit': '20'}
+2023-03-23 10:23:12,725 ERROR frappe New Exception collected with id: 2023-03-23 10:23:12.406231-127.0.0.1-583
+Site: law.com
+Form Dict: {}
+2023-03-23 10:23:12,726 ERROR frappe New Exception collected with id: 2023-03-23 10:23:12.406454-127.0.0.1-e87
+Site: law.com
+Form Dict: {}
+2023-03-23 10:23:12,725 ERROR frappe New Exception collected with id: 2023-03-23 10:23:12.406231-127.0.0.1-583
+Site: law.com
+Form Dict: {}
+2023-03-23 10:23:12,726 ERROR frappe New Exception collected with id: 2023-03-23 10:23:12.406454-127.0.0.1-e87
+Site: law.com
+Form Dict: {}
+2023-03-23 10:23:12,742 ERROR frappe New Exception collected with id: 2023-03-23 10:23:12.397841-127.0.0.1-cf7
+Site: law.com
+Form Dict: {}
+2023-03-23 10:23:12,742 ERROR frappe New Exception collected with id: 2023-03-23 10:23:12.397841-127.0.0.1-cf7
+Site: law.com
+Form Dict: {}
+2023-03-23 12:47:47,707 ERROR frappe New Exception collected with id: 2023-03-23 12:47:47.589822-127.0.0.1-a5f
+Site: law.com
+Form Dict: {'cmd': 'law_sys.lawapp.page.jai_demo.jai_demo.status_chart_2'}
+2023-03-23 14:03:20,726 ERROR frappe New Exception collected with id: 2023-03-23 14:03:20.514736-127.0.0.1-e00
+Site: law.com
+Form Dict: {'query': 'SELECT client, case_title, description, start_date, case_status_workflow FROM `tabCase` ORDER BY modified DESC LIMIT 5', 'cmd': 'law_sys.lawapp.page.jai_demo.jai_demo.query_database'}
+2023-03-23 14:05:15,552 ERROR frappe New Exception collected with id: 2023-03-23 14:05:15.537869-127.0.0.1-ccd
+Site: law.com
+Form Dict: {'query': 'SELECT client, case_title, description, start_date, case_status_workflow FROM `tabCase` ORDER BY modified DESC LIMIT 5', 'cmd': 'law_sys.lawapp.page.jai_demo.jai_demo.query_database'}
+2023-03-23 14:06:04,103 ERROR frappe New Exception collected with id: 2023-03-23 14:06:04.101445-127.0.0.1-006
+Site: law.com
+Form Dict: {'cmd': 'law_sys.lawapp.page.jai_demo.jai_demo.query_database'}
+2023-03-23 14:10:11,825 ERROR frappe New Exception collected with id: 2023-03-23 14:10:11.821508-127.0.0.1-a95
+Site: law.com
+Form Dict: {'query': 'SELECT client, case_title, description, start_date, case_status_workflow FROM `tabCase` ORDER BY modified DESC LIMIT 5', 'cmd': 'law_sys.lawapp.page.jai_demo.jai_demo.query_database'}
+2023-03-23 14:10:16,673 ERROR frappe New Exception collected with id: 2023-03-23 14:10:16.658900-127.0.0.1-01a
+Site: law.com
+Form Dict: {'query': 'SELECT client, case_title, description, start_date, case_status_workflow FROM `tabCase` ORDER BY modified DESC LIMIT 5', 'cmd': 'law_sys.lawapp.page.jai_demo.jai_demo.query_database'}
+2023-03-23 14:12:28,435 ERROR frappe New Exception collected with id: 2023-03-23 14:12:28.250122-127.0.0.1-2c3
+Site: law.com
+Form Dict: {'query': 'SELECT client, case_title, description, start_date, case_status_workflow FROM `tabCase` ORDER BY modified DESC LIMIT 5', 'cmd': 'law_sys.lawapp.page.jai_demo.jai_demo.query_database'}
+2023-03-24 10:50:21,670 ERROR frappe Could not take error snapshot: characters_written
+Site: law.com
+Form Dict: {'cmd': 'law_sys.lawapp.page.pages_data.get_sidebar_data'}
+Traceback (most recent call last):
+  File "/home/linux/Desktop/law_erp/frappe-bench/apps/frappe/frappe/app.py", line 66, in application
+    response = frappe.api.handle()
+  File "/home/linux/Desktop/law_erp/frappe-bench/apps/frappe/frappe/api.py", line 54, in handle
+    return frappe.handler.handle()
+  File "/home/linux/Desktop/law_erp/frappe-bench/apps/frappe/frappe/handler.py", line 45, in handle
+    data = execute_cmd(cmd)
+  File "/home/linux/Desktop/law_erp/frappe-bench/apps/frappe/frappe/handler.py", line 83, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/linux/Desktop/law_erp/frappe-bench/apps/frappe/frappe/__init__.py", line 1607, in call
+    return fn(*args, **newargs)
+  File "/home/linux/Desktop/law_erp/frappe-bench/apps/law_sys/law_sys/lawapp/page/pages_data.py", line 13, in get_sidebar_data
+    file = open(sidebarFile)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/linux/Desktop/law_erp/frappe-bench/sites/assets/law/sidebar.json'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/linux/Desktop/law_erp/frappe-bench/apps/frappe/frappe/utils/error.py", line 48, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/linux/Desktop/law_erp/frappe-bench/apps/frappe/frappe/utils/error.py", line 141, in get_snapshot
+    value = pydoc.text.repr(getattr(evalue, name))
+AttributeError: characters_written
