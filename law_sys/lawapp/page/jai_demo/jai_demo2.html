@@ -1,0 +1,106 @@
+<!-- {% if frappe.session.user != "Administrator" %}
+<div class="page-wrap d-flex flex-row align-items-center">
+  <div class="container">
+      <div class="row justify-content-center">
+          <div class="col-md-12 text-center">
+              <span class="display-1 d-block">Access Denied</span>
+              <div class="mb-4 lead">You do not have access to this page, please contact the administrator for access rights.</div>
+              <a href="/app/dashboard-page" class="btn btn-link">Back to Home</a>
+          </div>
+      </div>
+  </div>
+</div>
+
+{% else %} -->
+
+<div class="row justify-content-between">
+    <div class="col-9">
+        <div class="row row-cols-5" style="font-size: 0.75vw; white-space: nowrap;">
+            <div id="total_clients_card" class="col" >
+              <div  class="card" style="padding:20px;">
+                <div class="text-center pl-1">Clients</div>
+                <div class="text output_data mt-2" style="font-size: 1.5rem" id="total_clients">5</div>
+                <div class="verticalLine" style="background-color:green; width: 4px; height:100%; position: absolute; left: 0; top: 0; border-radius: 20%;"></div>
+              </div>
+            </div>
+            <div id="satisfied_clients_card" class="col">
+              <div class="card" style="padding:20px;">
+                <div class="text-center pl-1" >Satisfied Clients</div>
+                <div class="text output_data mt-2" style="font-size: 1.5rem" id="satisfied_clients">0</div>
+                <div class="verticalLine" style="background-color:orange; width: 4px; height:100%; position: absolute; left: 0; top: 0; border-radius: 20%;"></div>
+              </div>
+            </div>
+            <div id="successfull_cases_card" class="col">
+              <div class="card"  style="padding:20px;">
+                <div class="text-center pl-1">Successful Cases</div>
+                <div class="text output_data mt-2" style="font-size: 1.5rem" id="successfull_cases">5</div>
+                <div class="verticalLine" style="background-color:rgb(4, 122, 146); width: 4px; height:100%; position: absolute; left: 0; top: 0; border-radius: 20%;"></div>
+              </div>
+            </div>
+            <div id="total_requests_card" class="col">
+              <div class="card"  style="padding:20px;">
+                <div class="text-center pl-1">Requests</div>
+                <div class="text output_data mt-2" style="font-size: 1.5rem" id="total_requests">0</div>
+                <div class="verticalLine" style="background-color:purple; width: 4px; height:100%; position: absolute; left: 0; top: 0; border-radius: 20%;"></div>
+              </div>
+            </div>
+            <div id="new_clients_card" class="col">
+              <div class="card"  style="padding:20px;">
+                <div class="text-center pl-1">New Clients</div>
+                <div class="text output_data mt-2" style="font-size: 1.5rem" id="new_clients">0</div>
+                <div class="verticalLine" style="background-color:rgba(195, 179, 3, 1); width: 4px; height:100%; position: absolute; left: 0; top: 0; border-radius: 20%;"></div>
+              </div>
+            </div>
+          </div>
+          <div id="frost-chart" style="padding: 10% 0% 5% 0%;">
+          </div>
+          <div class="container-fluid status2" >
+              
+              <button id="casesButton" type="button" class="float-right btn btn-outline-dark">See all</button>
+              <h3 style="Padding-bottom: 2%">Recent Cases</h3>
+              <div id="queryResult">
+
+              </div>
+            </div>
+    </div>
+    <div class="col-3">
+      <div class="container bg-light rounded px-3 py-2" style="width: 100%; box-shadow: 0 0 8px rgba(0, 0, 0, 0.211)">
+            <div class="row pt-3 mb-3" style="font-size: 1.3vw;">
+              <div class="col-12 bold">To Do List</div>
+            </div>
+            <div class="row">
+              <div class="col-12" style="border-top: 2px solid  rgba(95, 94, 94, 0.332);"></div>
+            </div>
+            <div class="row mt-3"  style="font-size: 1vw; white-space: nowrap;">
+              <div class="col-6 bold px-3" >Subject</div>
+              <div class="col-6 bold px-3" >Due Date</div>
+            </div>
+            <div class="row mb-3 mt-2">
+              <div class="col-12" style="border-top: 2px solid rgba(0, 0, 0, 0.166)"></div>
+            </div>
+            <div class="row mb-4">
+              <div class="col-8">Update Clients Hears</div>
+                <div class="col-4">Dec 26</div>
+              </div>
+              <div class="row mb-4">
+                <div class="col-8">Update Clients Hears</div>
+                <div class="col-4">Dec 26</div>
+              </div>
+              <div class="row mb-4">
+                <div class="col-8">Update Clients Hears</div>
+                <div class="col-4">Dec 26</div>
+            </div>
+            <div class="row mb-4">
+              <div class="col-8">Update Clients Hears</div>
+              <div class="col-4">Dec 26</div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-8">Update Clients Hears</div>
+                <div class="col-4">Dec 26</div>
+            </div>
+          </div>
+    </div>
+</div>
+
+
+<!-- {% endif %}  -->

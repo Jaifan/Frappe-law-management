@@ -1,0 +1,73 @@
+
+<div class="row row-cols-5" style="padding-bottom: 3%">
+	<div id="total_cases_card" class="col-sm-2">
+		<div  class="card border border-primary" style="text-align:left;padding-right: 20%;">
+		
+			<span class="notifications-seen" style="text-align: center;padding-bottom: 5%;">
+				<svg class="icon icon-md"><use href="#icon-file-large"></use></svg>
+			</span>
+			<div class="title heading" style="padding-bottom: 4%;">Total Cases</div>
+			<div class="text output_data" id="total_cases">0</div>
+		</div>
+	</div>
+	<div id="active_cases_card" class="col">
+		<div class="card align-content-center" style="height: 40%; background: #40ff00;">
+			<div class="row no-gutters">
+				<div class="col-8">
+					<h5 style="padding-top: 2%;  font-size: 0.85vw; white-space: nowrap;">Active Cases</h5>
+				</div>
+				<div class="col-4" style="text-align:right; font-weight: bold; padding: 0% 7% 0% 0%;">
+					<p id="active_cases" style="display:inline;">0</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="appealed_cases_card" class="col">
+		<div class="card align-content-center" style="height: 40%; background: #ffbf00;">
+			<div class="row no-gutters">
+				<div class="col-8">
+					<h5 style="padding-top: 2%;  font-size: 0.85vw; white-space: nowrap;">Appealed Cases</h5>
+				</div>
+				<div class="col-4" style="text-align:right; font-weight: bold; padding: 0% 7% 0% 0%;">
+					<p id="appealed_cases">0</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="finished_cases_card" class="col">
+		<div class="card align-content-center" style="height: 40%; background: #0080ff;">
+			<div class="row no-gutters">
+				<div class="col-8">
+					<h5 style="padding-top: 2%;  font-size: 0.85vw; white-space: nowrap;">Finished Cases</h5>
+				</div>
+				<div class="col-4" style="text-align:right; font-weight: bold; padding: 0% 7% 0% 0%;">
+					<p id="finished_cases">0</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="cases_won_card" class="col">
+		<div class="card align-content-center" style="height: 40%; background: #bf00ff;">
+			<div class="row no-gutters">
+				<div class="col-8">
+					<h5 style="padding-top: 2%;  font-size: 0.85vw; white-space: nowrap;">Cases Won</h5>
+				</div>
+				<div class="col-4" style="text-align:right; font-weight: bold; padding: 0% 7% 0% 0%;">
+					<p id="cases_won">0</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</div>
+
+<div class="container-fluid">
+	
+	<button id="casesButton" type="button" class="float-right btn btn-outline-dark">Add new Case</button>
+	
+</section>
+
+    <h3 style="Padding-bottom: 2%">Cases</h3>
+	<div id="queryResult">
+	</div>
+</div>

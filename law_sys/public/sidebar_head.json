@@ -1,0 +1,35 @@
+{
+   "sidebar":[
+    {
+        "title": "Dashboard",
+        "page": "dashboard-head",
+        "icon": "dashboard-list"
+    },
+    {
+        "title": "Cases",
+        "page": "case-page",
+        "icon": "duplicate"
+    },
+    {
+        "title": "Team",
+        "page": "employee-page-team",
+        "icon": "users"
+    },
+    {
+        "title": "Vacation",
+        "page": "vacation-head",
+        "icon": "today"
+    },
+    {
+        "title": "Annual Calendar",
+        "page": "annual-calendar-page",
+        "icon": "calendar"
+    },
+    {
+        "title": "Documents",
+        "page": "document-page",
+        "icon": "file"
+    }
+
+   ]
+}

@@ -1,0 +1,128 @@
+
+<div class="container-fluid align-items-center" style="position:absolute; height: 100%;">
+
+    <button id="invoiceButton" type="button" class="float-right btn btn-outline-dark">+ Add new Invoice</button>
+    <h3 style="Padding-bottom: 2%">Cases - case-002</h3>
+    <!-- <h3 style="Padding-bottom: 2%">Cases -> {{ title }}</h3>-->
+
+    
+    <div id="queryResult">
+        <div class="form-layout">
+            <div class="form-message hidden"></div>
+            <div class="form-page">
+              <div class="form-tabs-list form-tabs-sticky-down">
+                <ul class="nav form-tabs" id="form-tabs" role="tablist">
+                  <li class="nav-item show">
+                    <a class="nav-link active" id="case-doctype-__details-tab" data-toggle="tab" data-target="#tab1" role="tab" aria-controls="Details" aria-selected="true"> Overview </a>
+                  </li>
+                  <li class="nav-item show">
+                    <a class="nav-link" id="case-doctype-tab_break_25zqn-tab" data-toggle="tab" data-target="#tab2" role="tab" aria-controls="Department of legal adaptation of the incident" aria-selected="false"> Case tasks </a>
+                  </li>
+                  <li class="nav-item show">
+                    <a class="nav-link " id="case-doctype-tab_break_swyak-tab" data-toggle="tab" data-target="#tab3" role="tab" aria-controls="Verdict"> Case files </a>
+                  </li>
+                  <li class="nav-item show">
+                    <a class="nav-link " id="case-doctype-tab_break_swyak-tab" data-toggle="tab" data-target="#tab4" role="tab" aria-controls="Verdict"> Invoices </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="form-tab-content tab-content">
+                <div class="tab-pane fade active show" id="tab1" role="tabpanel" aria-labelledby="case-doctype-__details-tab">
+                   
+                    <div class="container">
+                        <div class="row">
+                        <div class="col-12">
+                            <div class="text-left mt-3">
+                            <h3>Description</h3>
+                            <p>data.legal_adaptation</p>
+                            <!--<p>{{ data.legal_adaptation}}</p>-->
+                            </div>
+                        </div>
+                        </div>
+                        <div class="row">
+                        <div class="col-12">
+                            <div class="text-left mt-3">
+                            <h3>Citation of the Case</h3>
+                            <p> data.competent_authority</p>
+                           <!-- <p>{{ data.competent_authority}}</p> -->
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="case-doctype-__details-tab">
+                    <div class="container">
+                        <div class="row mt-3" style="font-weight: bold;">
+                          <div class="col-sm-2"><div>Claim Description</div></div>
+                          <div class="col-sm-2"><div>Grantor</div></div>
+                          <div class="col-sm-2"><div>Case Kind</div></div>
+                          <div class="col-sm-3"><div>Beginning of the Claim</div></div>
+                          <div class="col-sm-2"><div>Status</div></div>
+                        </div>
+                        <div class="timeline">
+                            <div class="row">
+                                <div class="col-sm-2">
+                                    <div class="timeline-item mb-5">
+                                        data.legal_adaptation
+                                    </div>
+                                </div>
+                                <div class="col-sm-2"><div>data.attorney </div></div>
+                                <div class="col-sm-2"><div>data.case_kind </div></div>
+                                <div class="col-sm-3"><div>data.start_date</div></div>
+                                <div class="col-sm-2"><div>data.status </div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="case-doctype-__details-tab">
+                    <div class="container">
+                        <div class="row mt-3">
+                           <!-- {% if not file %} -->
+                                <div class="col-sm-3 mt-3">
+                                    <h4 class="text-dark">No Files Attached</h4>
+                                </div>
+                            <!--{% else %}
+                                <div class="col-sm-3">
+                                    <div class="card align-center" style="padding: 0px;">
+                                    <img src="/assets/frappe/images/pdf-icon.png" class="card-img-top mt-2" style="width: 50%" alt="file1 image">
+                                    <div class="card-body">
+                                        <p class="card-text text-danger underline">
+                                            <a href="{{ file.file_url }}" class="stretched-link text-danger" style="position: relative;">{{file.file_name}}</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endif %}-->
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="tab4" role="tabpanel" aria-labelledby="case-doctype-__details-tab">
+                    <div class="container">
+                        <div class="row mt-3">
+                            <div class="col-md-3">
+                                <div class="card" style="padding: 0px;">
+                                    
+                                    <div class="card-header">Total billing</div>
+                                    <div class="card-body mt-3">
+                                        <h4 class="card-text text-primary" >$0.00</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card" style="padding: 0px;">
+                                    
+                                    <div class="card-header">Payments</div>
+                                    <div class="card-body mt-3">
+                                        <h4 class="card-text text-primary" >$0.00</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+          </div> 
+        </div>
+    </div>
+

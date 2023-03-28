@@ -1,0 +1,188 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:CourtSession-{####}",
+ "creation": "2023-03-22 15:10:07.859943",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "session_no",
+  "date_and_time",
+  "date_in_hijri",
+  "weekend",
+  "client",
+  "contender",
+  "case",
+  "client_status",
+  "court",
+  "section",
+  "subject",
+  "previous_session",
+  "next_session_date",
+  "next_session_date_in_hijri",
+  "agent",
+  "poa",
+  "session_link_url",
+  "report",
+  "attendences",
+  "session_requirements"
+ ],
+ "fields": [
+  {
+   "fieldname": "session_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Session No.",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date_and_time",
+   "fieldtype": "Date",
+   "label": "Date and Time"
+  },
+  {
+   "fieldname": "date_in_hijri",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date in Hijri",
+   "reqd": 1
+  },
+  {
+   "fieldname": "weekend",
+   "fieldtype": "Data",
+   "label": "Weekend"
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Client",
+   "options": "Client",
+   "reqd": 1
+  },
+  {
+   "fieldname": "contender",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Contender",
+   "options": "Contender",
+   "reqd": 1
+  },
+  {
+   "fieldname": "case",
+   "fieldtype": "Link",
+   "label": "Case",
+   "options": "Cases",
+   "reqd": 1
+  },
+  {
+   "fieldname": "client_status",
+   "fieldtype": "Select",
+   "label": "Client Status",
+   "reqd": 1
+  },
+  {
+   "fieldname": "court",
+   "fieldtype": "Link",
+   "label": "Court",
+   "options": "Court",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section",
+   "fieldtype": "Link",
+   "label": "Section",
+   "options": "Section",
+   "reqd": 1
+  },
+  {
+   "fieldname": "subject",
+   "fieldtype": "Data",
+   "label": "Subject",
+   "reqd": 1
+  },
+  {
+   "fieldname": "previous_session",
+   "fieldtype": "Link",
+   "label": "Previous Session ",
+   "options": "Court Session",
+   "reqd": 1
+  },
+  {
+   "fieldname": "next_session_date",
+   "fieldtype": "Date",
+   "label": "Next Session Date ",
+   "reqd": 1
+  },
+  {
+   "fieldname": "next_session_date_in_hijri",
+   "fieldtype": "Date",
+   "label": "Next Session Date in Hijri",
+   "reqd": 1
+  },
+  {
+   "fieldname": "agent",
+   "fieldtype": "Link",
+   "label": "Agent",
+   "options": "Agent",
+   "reqd": 1
+  },
+  {
+   "fieldname": "poa",
+   "fieldtype": "Link",
+   "label": "POA",
+   "options": "Power Of Attorney",
+   "reqd": 1
+  },
+  {
+   "fieldname": "session_link_url",
+   "fieldtype": "Data",
+   "label": "Session Link URL",
+   "reqd": 1
+  },
+  {
+   "fieldname": "report",
+   "fieldtype": "Text",
+   "label": "Report "
+  },
+  {
+   "fieldname": "attendences",
+   "fieldtype": "Table",
+   "label": "Attendences",
+   "options": "Attendences"
+  },
+  {
+   "fieldname": "session_requirements",
+   "fieldtype": "Table",
+   "label": "Session Requirement",
+   "options": "Session Requirement"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-03-22 15:16:08.908574",
+ "modified_by": "Administrator",
+ "module": "Lawapp",
+ "name": "Court Session",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

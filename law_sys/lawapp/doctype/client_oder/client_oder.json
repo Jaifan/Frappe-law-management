@@ -1,0 +1,97 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:Order-{####}",
+ "creation": "2023-03-22 12:22:45.521592",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "order",
+  "client",
+  "agent",
+  "due_date",
+  "contract",
+  "order_details",
+  "rejection_details",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "order",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Order Type",
+   "options": "Consultation\nCase Studying\nProcedures",
+   "reqd": 1
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Link",
+   "label": "Client",
+   "options": "Client"
+  },
+  {
+   "fieldname": "agent",
+   "fieldtype": "Table",
+   "label": "Agent",
+   "options": "AgentChildTable"
+  },
+  {
+   "fieldname": "due_date",
+   "fieldtype": "Date",
+   "label": "Due Date"
+  },
+  {
+   "fieldname": "contract",
+   "fieldtype": "Data",
+   "label": "Contract"
+  },
+  {
+   "fieldname": "order_details",
+   "fieldtype": "Text Editor",
+   "label": "Order Details"
+  },
+  {
+   "fieldname": "rejection_details",
+   "fieldtype": "Text Editor",
+   "label": "Rejection Deatils"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Client Oder",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-03-22 12:23:04.126359",
+ "modified_by": "Administrator",
+ "module": "Lawapp",
+ "name": "Client Oder",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

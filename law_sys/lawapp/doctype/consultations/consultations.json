@@ -1,0 +1,113 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:Consultation-{####}",
+ "creation": "2023-03-22 13:04:06.627868",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "client",
+  "agent",
+  "consultation_type",
+  "consultation_category",
+  "contract",
+  "due_date",
+  "description",
+  "result",
+  "agent_advice"
+ ],
+ "fields": [
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Client",
+   "options": "Client",
+   "reqd": 1
+  },
+  {
+   "fieldname": "agent",
+   "fieldtype": "Link",
+   "label": "Agent",
+   "options": "AgentChildTable"
+  },
+  {
+   "fieldname": "consultation_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Consultation Type",
+   "options": "One Time\nMonthly",
+   "reqd": 1
+  },
+  {
+   "fieldname": "consultation_category",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Consultation Category",
+   "options": "Consultation Category",
+   "reqd": 1
+  },
+  {
+   "fieldname": "contract",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Contract",
+   "options": "Client Contract",
+   "reqd": 1
+  },
+  {
+   "fieldname": "due_date",
+   "fieldtype": "Date",
+   "label": "Due Date"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text Editor",
+   "label": "Description",
+   "reqd": 1
+  },
+  {
+   "fieldname": "result",
+   "fieldtype": "Text Editor",
+   "label": "Result"
+  },
+  {
+   "fieldname": "agent_advice",
+   "fieldtype": "Text Editor",
+   "label": "Agent Advice "
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-03-22 13:04:06.627868",
+ "modified_by": "Administrator",
+ "module": "Lawapp",
+ "name": "Consultations",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

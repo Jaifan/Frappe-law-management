@@ -1,0 +1,132 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:Client-{####}",
+ "creation": "2023-03-22 10:27:20.905109",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "full_name",
+  "contract_number",
+  "agency_date",
+  "client_group",
+  "email",
+  "email_2",
+  "address",
+  "column_break_az5sx",
+  "kind",
+  "agency_number",
+  "agency_expire_date",
+  "the_state",
+  "phone_number",
+  "mobile_number",
+  "city"
+ ],
+ "fields": [
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Full Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "contract_number",
+   "fieldtype": "Data",
+   "label": "Contract Number"
+  },
+  {
+   "fieldname": "agency_date",
+   "fieldtype": "Date",
+   "label": "Agency Date(AD)"
+  },
+  {
+   "fieldname": "client_group",
+   "fieldtype": "Data",
+   "label": "Client Group"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "email_2",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "column_break_az5sx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "kind",
+   "fieldtype": "Select",
+   "label": "Kind",
+   "options": "Individual\nBusiness\nNon-Profit\nGovernment"
+  },
+  {
+   "fieldname": "agency_number",
+   "fieldtype": "Data",
+   "label": "Agency Number"
+  },
+  {
+   "fieldname": "agency_expire_date",
+   "fieldtype": "Data",
+   "label": "Agency Expiry Date"
+  },
+  {
+   "fieldname": "the_state",
+   "fieldtype": "Data",
+   "label": "The State"
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Data",
+   "label": "Phone Number"
+  },
+  {
+   "fieldname": "mobile_number",
+   "fieldtype": "Data",
+   "label": "Mobile Number"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-03-22 13:06:31.363064",
+ "modified_by": "Administrator",
+ "module": "Lawapp",
+ "name": "Client",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

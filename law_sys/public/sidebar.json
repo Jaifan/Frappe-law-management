@@ -1,0 +1,55 @@
+{
+   "sidebar":[
+    {
+        "title": "Overview",
+        "page": "overview",
+        "icon": "dashboard-list"
+    },
+    {
+        "title": "Cases",
+        "page": "case-overview",
+        "icon": "duplicate"
+    },
+    {
+        "title": "Clients",
+        "page": "clients",
+        "icon": "users"
+    },
+    {
+        "title": "Employees",
+        "page": "employees",
+        "icon": "support"
+    },
+    {
+        "title": "Top Employees",
+        "page": "top-employee-page",
+        "icon": "star"
+    },
+    {
+        "title": "Vacation",
+        "page": "vacation-page",
+        "icon": "today"
+    },
+    {
+        "title": "Annual Calendar",
+        "page": "annual-calendar-page",
+        "icon": "calendar"
+    },
+    {
+        "title": "Requests",
+        "page": "request-page",
+        "icon": "card"
+    },
+    {
+        "title": "Documents",
+        "page": "document-page",
+        "icon": "file"
+    },
+    {
+        "title": "Case Related",
+        "page": "case-related",
+        "icon": "edit-fill"
+    }
+
+   ]
+}

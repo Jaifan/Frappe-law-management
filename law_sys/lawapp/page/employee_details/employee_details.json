@@ -1,0 +1,19 @@
+{
+ "content": null,
+ "creation": "2023-03-24 15:34:21.064230",
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2023-03-24 15:34:21.064230",
+ "modified_by": "Administrator",
+ "module": "Lawapp",
+ "name": "employee-details",
+ "owner": "Administrator",
+ "page_name": "employee-details",
+ "roles": [],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0,
+ "title": "Employee Details"
+}
